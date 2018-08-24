@@ -1,0 +1,17 @@
+---
+logs:
+  level: DEBUG
+  token: ~
+bismark:
+  appId: jawon-bismark-s2-0.18.1
+  name: bismark_test
+  archive: true
+  archivePath: ""
+  archiveSystem: ""
+  inputs:
+    fastq1: ""
+    genome_folder: "agave://data.iplantcollaborative.org/jawon/bismark/"
+  notifications:
+    -
+      event: FAILED
+      url: jawon@tacc.utexas.edu
