@@ -10,7 +10,7 @@ bismark:
   archiveSystem: ""
   inputs:
     fastq1: ""
-    genome_folder: "agave://data.iplantcollaborative.org/jawon/bismark/"
+    genome_folder: "agave://data.iplantcollaborative.org/jawon/examples/genome"
   notifications:
     -
       event: FAILED
